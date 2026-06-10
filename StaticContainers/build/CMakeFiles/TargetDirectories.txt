@@ -1,0 +1,3 @@
+/home/kyrylo/Documents/StaticContainers/build/CMakeFiles/StaticContainers.dir
+/home/kyrylo/Documents/StaticContainers/build/CMakeFiles/edit_cache.dir
+/home/kyrylo/Documents/StaticContainers/build/CMakeFiles/rebuild_cache.dir
