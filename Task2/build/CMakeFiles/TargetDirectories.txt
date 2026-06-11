@@ -1,0 +1,3 @@
+/home/kyrylo/Repository/Task2/build/CMakeFiles/XmlParser.dir
+/home/kyrylo/Repository/Task2/build/CMakeFiles/edit_cache.dir
+/home/kyrylo/Repository/Task2/build/CMakeFiles/rebuild_cache.dir
