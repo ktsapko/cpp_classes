@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Task4.dir/link.d CMakeFiles/Task4.dir/src/main.cpp.o CMakeFiles/Task4.dir/src/Trie.cpp.o -o Task4
