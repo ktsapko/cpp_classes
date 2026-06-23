@@ -1,0 +1,44 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Predator",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "MovesTowardsNearestVictim",
+          "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
+          "line": 9
+        },
+        {
+          "name": "EatsVictimOnSameCell",
+          "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "name": "Simulation",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "RunsSeveralIterations",
+          "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
+          "line": 39
+        }
+      ]
+    },
+    {
+      "name": "Pool",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "PositionInsidePool",
+          "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
+          "line": 58
+        }
+      ]
+    }
+  ]
+}

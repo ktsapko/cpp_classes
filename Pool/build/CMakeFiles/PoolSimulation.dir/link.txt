@@ -1,2 +1,2 @@
-/usr/bin/ar qc libPoolSimulation.a CMakeFiles/PoolSimulation.dir/src/Distance.cpp.o CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o
+/usr/bin/ar qc libPoolSimulation.a CMakeFiles/PoolSimulation.dir/src/Distance.cpp.o CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o
 /usr/bin/ranlib libPoolSimulation.a

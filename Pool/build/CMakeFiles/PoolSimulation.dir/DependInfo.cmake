@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kyrylo/Repository/Pool/src/Distance.cpp" "CMakeFiles/PoolSimulation.dir/src/Distance.cpp.o" "gcc" "CMakeFiles/PoolSimulation.dir/src/Distance.cpp.o.d"
+  "/home/kyrylo/Repository/Pool/src/Fish.cpp" "CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o" "gcc" "CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o.d"
+  "/home/kyrylo/Repository/Pool/src/Pool.cpp" "CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o" "gcc" "CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o.d"
   "/home/kyrylo/Repository/Pool/src/Predator.cpp" "CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o" "gcc" "CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o.d"
+  "/home/kyrylo/Repository/Pool/src/Simulation.cpp" "CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o" "gcc" "CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o.d"
   "/home/kyrylo/Repository/Pool/src/Victim.cpp" "CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o" "gcc" "CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o.d"
   )
 

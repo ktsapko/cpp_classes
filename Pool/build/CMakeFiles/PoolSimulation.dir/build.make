@@ -86,10 +86,24 @@ CMakeFiles/PoolSimulation.dir/src/Distance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PoolSimulation.dir/src/Distance.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyrylo/Repository/Pool/src/Distance.cpp -o CMakeFiles/PoolSimulation.dir/src/Distance.cpp.s
 
+CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o: CMakeFiles/PoolSimulation.dir/flags.make
+CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o: /home/kyrylo/Repository/Pool/src/Fish.cpp
+CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o: CMakeFiles/PoolSimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o -MF CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o.d -o CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o -c /home/kyrylo/Repository/Pool/src/Fish.cpp
+
+CMakeFiles/PoolSimulation.dir/src/Fish.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PoolSimulation.dir/src/Fish.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyrylo/Repository/Pool/src/Fish.cpp > CMakeFiles/PoolSimulation.dir/src/Fish.cpp.i
+
+CMakeFiles/PoolSimulation.dir/src/Fish.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PoolSimulation.dir/src/Fish.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyrylo/Repository/Pool/src/Fish.cpp -o CMakeFiles/PoolSimulation.dir/src/Fish.cpp.s
+
 CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o: CMakeFiles/PoolSimulation.dir/flags.make
 CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o: /home/kyrylo/Repository/Pool/src/Victim.cpp
 CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o: CMakeFiles/PoolSimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o -MF CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o.d -o CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o -c /home/kyrylo/Repository/Pool/src/Victim.cpp
 
 CMakeFiles/PoolSimulation.dir/src/Victim.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/PoolSimulation.dir/src/Victim.cpp.s: cmake_force
 CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o: CMakeFiles/PoolSimulation.dir/flags.make
 CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o: /home/kyrylo/Repository/Pool/src/Predator.cpp
 CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o: CMakeFiles/PoolSimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o -MF CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o.d -o CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o -c /home/kyrylo/Repository/Pool/src/Predator.cpp
 
 CMakeFiles/PoolSimulation.dir/src/Predator.cpp.i: cmake_force
@@ -114,21 +128,55 @@ CMakeFiles/PoolSimulation.dir/src/Predator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PoolSimulation.dir/src/Predator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyrylo/Repository/Pool/src/Predator.cpp -o CMakeFiles/PoolSimulation.dir/src/Predator.cpp.s
 
+CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o: CMakeFiles/PoolSimulation.dir/flags.make
+CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o: /home/kyrylo/Repository/Pool/src/Simulation.cpp
+CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o: CMakeFiles/PoolSimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o -MF CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o.d -o CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o -c /home/kyrylo/Repository/Pool/src/Simulation.cpp
+
+CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyrylo/Repository/Pool/src/Simulation.cpp > CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.i
+
+CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyrylo/Repository/Pool/src/Simulation.cpp -o CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.s
+
+CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o: CMakeFiles/PoolSimulation.dir/flags.make
+CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o: /home/kyrylo/Repository/Pool/src/Pool.cpp
+CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o: CMakeFiles/PoolSimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o -MF CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o.d -o CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o -c /home/kyrylo/Repository/Pool/src/Pool.cpp
+
+CMakeFiles/PoolSimulation.dir/src/Pool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PoolSimulation.dir/src/Pool.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kyrylo/Repository/Pool/src/Pool.cpp > CMakeFiles/PoolSimulation.dir/src/Pool.cpp.i
+
+CMakeFiles/PoolSimulation.dir/src/Pool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PoolSimulation.dir/src/Pool.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kyrylo/Repository/Pool/src/Pool.cpp -o CMakeFiles/PoolSimulation.dir/src/Pool.cpp.s
+
 # Object files for target PoolSimulation
 PoolSimulation_OBJECTS = \
 "CMakeFiles/PoolSimulation.dir/src/Distance.cpp.o" \
+"CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o" \
 "CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o" \
-"CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o"
+"CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o" \
+"CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o" \
+"CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o"
 
 # External object files for target PoolSimulation
 PoolSimulation_EXTERNAL_OBJECTS =
 
 libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/src/Distance.cpp.o
+libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/src/Fish.cpp.o
 libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o
 libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o
+libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o
+libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o
 libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/build.make
 libPoolSimulation.a: CMakeFiles/PoolSimulation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libPoolSimulation.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kyrylo/Repository/Pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libPoolSimulation.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/PoolSimulation.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PoolSimulation.dir/link.txt --verbose=$(VERBOSE)
 
