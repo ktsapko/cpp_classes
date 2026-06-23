@@ -71,4 +71,5 @@ CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o: \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
- /home/kyrylo/Repository/Pool/include/Distance.h
+ /home/kyrylo/Repository/Pool/include/Distance.h \
+ /home/kyrylo/Repository/Pool/include/Pool.h

@@ -70,6 +70,7 @@ CMakeFiles/PoolSimulation.dir/src/Pool.cpp.o: /home/kyrylo/Repository/Pool/src/P
 CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o: /home/kyrylo/Repository/Pool/src/Predator.cpp \
   /home/kyrylo/Repository/Pool/include/Distance.h \
   /home/kyrylo/Repository/Pool/include/Fish.h \
+  /home/kyrylo/Repository/Pool/include/Pool.h \
   /home/kyrylo/Repository/Pool/include/Position.h \
   /home/kyrylo/Repository/Pool/include/Predator.h \
   /home/kyrylo/Repository/Pool/include/Victim.h \
@@ -162,6 +163,7 @@ CMakeFiles/PoolSimulation.dir/src/Predator.cpp.o: /home/kyrylo/Repository/Pool/s
 
 CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o: /home/kyrylo/Repository/Pool/src/Simulation.cpp \
   /home/kyrylo/Repository/Pool/include/Fish.h \
+  /home/kyrylo/Repository/Pool/include/Pool.h \
   /home/kyrylo/Repository/Pool/include/Position.h \
   /home/kyrylo/Repository/Pool/include/Predator.h \
   /home/kyrylo/Repository/Pool/include/Simulation.h \
@@ -292,6 +294,7 @@ CMakeFiles/PoolSimulation.dir/src/Simulation.cpp.o: /home/kyrylo/Repository/Pool
 CMakeFiles/PoolSimulation.dir/src/Victim.cpp.o: /home/kyrylo/Repository/Pool/src/Victim.cpp \
   /home/kyrylo/Repository/Pool/include/Directions.h \
   /home/kyrylo/Repository/Pool/include/Fish.h \
+  /home/kyrylo/Repository/Pool/include/Pool.h \
   /home/kyrylo/Repository/Pool/include/Position.h \
   /home/kyrylo/Repository/Pool/include/Victim.h \
   /usr/include/alloca.h \

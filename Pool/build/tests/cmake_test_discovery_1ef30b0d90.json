@@ -1,5 +1,5 @@
 {
-  "tests": 4,
+  "tests": 5,
   "name": "AllTests",
   "testsuites": [
     {
@@ -14,7 +14,7 @@
         {
           "name": "EatsVictimOnSameCell",
           "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
-          "line": 23
+          "line": 24
         }
       ]
     },
@@ -25,7 +25,7 @@
         {
           "name": "RunsSeveralIterations",
           "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
-          "line": 39
+          "line": 41
         }
       ]
     },
@@ -36,7 +36,18 @@
         {
           "name": "PositionInsidePool",
           "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
-          "line": 58
+          "line": 62
+        }
+      ]
+    },
+    {
+      "name": "Victim",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "CannotLeavePool",
+          "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
+          "line": 82
         }
       ]
     }

@@ -1,10 +1,10 @@
-Start testing: Jun 23 10:24 EEST
+Start testing: Jun 23 11:11 EEST
 ----------------------------------------------------------
-1/4 Testing: Predator.MovesTowardsNearestVictim
-1/4 Test: Predator.MovesTowardsNearestVictim
+1/5 Testing: Predator.MovesTowardsNearestVictim
+1/5 Test: Predator.MovesTowardsNearestVictim
 Command: "/home/kyrylo/Repository/Pool/build/tests/Predator_Test" "--gtest_filter=Predator.MovesTowardsNearestVictim" "--gtest_also_run_disabled_tests"
 Directory: /home/kyrylo/Repository/Pool/build/tests
-"Predator.MovesTowardsNearestVictim" start time: Jun 23 10:24 EEST
+"Predator.MovesTowardsNearestVictim" start time: Jun 23 11:11 EEST
 Output:
 ----------------------------------------------------------
 Running main() from gmock_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = Predator.MovesTowardsNearestVictim
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Predator.MovesTowardsNearestVictim" end time: Jun 23 10:24 EEST
+"Predator.MovesTowardsNearestVictim" end time: Jun 23 11:11 EEST
 "Predator.MovesTowardsNearestVictim" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: Predator.EatsVictimOnSameCell
-2/4 Test: Predator.EatsVictimOnSameCell
+2/5 Testing: Predator.EatsVictimOnSameCell
+2/5 Test: Predator.EatsVictimOnSameCell
 Command: "/home/kyrylo/Repository/Pool/build/tests/Predator_Test" "--gtest_filter=Predator.EatsVictimOnSameCell" "--gtest_also_run_disabled_tests"
 Directory: /home/kyrylo/Repository/Pool/build/tests
-"Predator.EatsVictimOnSameCell" start time: Jun 23 10:24 EEST
+"Predator.EatsVictimOnSameCell" start time: Jun 23 11:11 EEST
 Output:
 ----------------------------------------------------------
 Running main() from gmock_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = Predator.EatsVictimOnSameCell
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Predator.EatsVictimOnSameCell" end time: Jun 23 10:24 EEST
+"Predator.EatsVictimOnSameCell" end time: Jun 23 11:11 EEST
 "Predator.EatsVictimOnSameCell" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: Simulation.RunsSeveralIterations
-3/4 Test: Simulation.RunsSeveralIterations
+3/5 Testing: Simulation.RunsSeveralIterations
+3/5 Test: Simulation.RunsSeveralIterations
 Command: "/home/kyrylo/Repository/Pool/build/tests/Predator_Test" "--gtest_filter=Simulation.RunsSeveralIterations" "--gtest_also_run_disabled_tests"
 Directory: /home/kyrylo/Repository/Pool/build/tests
-"Simulation.RunsSeveralIterations" start time: Jun 23 10:24 EEST
+"Simulation.RunsSeveralIterations" start time: Jun 23 11:11 EEST
 Output:
 ----------------------------------------------------------
 Running main() from gmock_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = Simulation.RunsSeveralIterations
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Simulation.RunsSeveralIterations" end time: Jun 23 10:24 EEST
+"Simulation.RunsSeveralIterations" end time: Jun 23 11:11 EEST
 "Simulation.RunsSeveralIterations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: Pool.PositionInsidePool
-4/4 Test: Pool.PositionInsidePool
+4/5 Testing: Pool.PositionInsidePool
+4/5 Test: Pool.PositionInsidePool
 Command: "/home/kyrylo/Repository/Pool/build/tests/Predator_Test" "--gtest_filter=Pool.PositionInsidePool" "--gtest_also_run_disabled_tests"
 Directory: /home/kyrylo/Repository/Pool/build/tests
-"Pool.PositionInsidePool" start time: Jun 23 10:24 EEST
+"Pool.PositionInsidePool" start time: Jun 23 11:11 EEST
 Output:
 ----------------------------------------------------------
 Running main() from gmock_main.cc
@@ -104,8 +104,35 @@ Note: Google Test filter = Pool.PositionInsidePool
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"Pool.PositionInsidePool" end time: Jun 23 10:24 EEST
+"Pool.PositionInsidePool" end time: Jun 23 11:11 EEST
 "Pool.PositionInsidePool" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 23 10:24 EEST
+5/5 Testing: Victim.CannotLeavePool
+5/5 Test: Victim.CannotLeavePool
+Command: "/home/kyrylo/Repository/Pool/build/tests/Predator_Test" "--gtest_filter=Victim.CannotLeavePool" "--gtest_also_run_disabled_tests"
+Directory: /home/kyrylo/Repository/Pool/build/tests
+"Victim.CannotLeavePool" start time: Jun 23 11:11 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = Victim.CannotLeavePool
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Victim
+[ RUN      ] Victim.CannotLeavePool
+[       OK ] Victim.CannotLeavePool (0 ms)
+[----------] 1 test from Victim (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Victim.CannotLeavePool" end time: Jun 23 11:11 EEST
+"Victim.CannotLeavePool" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 23 11:11 EEST
