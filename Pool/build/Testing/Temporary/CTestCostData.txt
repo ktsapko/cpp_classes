@@ -1,8 +1,0 @@
-Predator.FindsNearestVictim 2 0.0017836
-Predator.MovesTowardsNearestVictim 10 0.000329135
-Predator.EatsVictimOnSameCell 10 0.000297485
-Simulation.PredatorEatsVictim 1 0
-Simulation.RunsSeveralIterations 6 0.000490817
-Pool.PositionInsidePool 3 0.000895199
-Victim.CannotLeavePool 1 0.00290456
----

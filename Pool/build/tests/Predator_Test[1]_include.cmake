@@ -1,5 +1,0 @@
-if(EXISTS "/home/kyrylo/Repository/Pool/build/tests/Predator_Test[1]_tests.cmake")
-  include("/home/kyrylo/Repository/Pool/build/tests/Predator_Test[1]_tests.cmake")
-else()
-  add_test(Predator_Test_NOT_BUILT Predator_Test_NOT_BUILT)
-endif()
