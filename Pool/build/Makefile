@@ -185,6 +185,19 @@ PoolSimulation/fast:
 .PHONY : PoolSimulation/fast
 
 #=============================================================================
+# Target rules for targets named PoolApp
+
+# Build rule for target.
+PoolApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PoolApp
+.PHONY : PoolApp
+
+# fast build rule for target.
+PoolApp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PoolApp.dir/build.make CMakeFiles/PoolApp.dir/build
+.PHONY : PoolApp/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -393,6 +406,30 @@ src/Victim.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PoolSimulation.dir/build.make CMakeFiles/PoolSimulation.dir/src/Victim.cpp.s
 .PHONY : src/Victim.cpp.s
 
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PoolApp.dir/build.make CMakeFiles/PoolApp.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PoolApp.dir/build.make CMakeFiles/PoolApp.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PoolApp.dir/build.make CMakeFiles/PoolApp.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -406,6 +443,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... PoolApp"
 	@echo "... PoolSimulation"
 	@echo "... Predator_Test"
 	@echo "... gmock"
@@ -430,6 +468,9 @@ help:
 	@echo "... src/Victim.o"
 	@echo "... src/Victim.i"
 	@echo "... src/Victim.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

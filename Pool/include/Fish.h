@@ -2,12 +2,16 @@
 
 #include "Position.h"
 
+class Pool;
+
 class Fish
 {
 public:
+    explicit Fish(Position position);
+
     virtual ~Fish() = default;
-    virtual Position getPosition() const;
-    virtual void move() = 0;
+
+    Position getPosition() const;
 
 protected:
     Position m_position;

@@ -16,13 +16,24 @@ enable_testing()
 add_library(
     PoolSimulation
     src/Distance.cpp
+    src/Fish.cpp
     src/Victim.cpp
     src/Predator.cpp
+    src/Simulation.cpp
+    src/Pool.cpp    
 )
 
 target_include_directories(
     PoolSimulation
     PUBLIC include
+)
+
+add_executable(PoolApp
+    src/main.cpp
+)
+
+target_link_libraries(PoolApp
+    PRIVATE PoolSimulation
 )
 
 add_subdirectory(tests)

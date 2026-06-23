@@ -1,11 +1,14 @@
 #pragma once
 
+#include "Position.h"
+
 class Pool
 {
 public:
     Pool(int rows, int cols);
-    int rows() const;
-    int cols() const;
+
+    bool isInside(
+        const Position& position) const;
 
 private:
     int m_rows;

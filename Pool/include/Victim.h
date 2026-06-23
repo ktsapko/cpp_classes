@@ -1,15 +1,16 @@
 #pragma once
 
 #include "Fish.h"
-#include "Position.h"
+
+class Pool;
 
 class Victim : public Fish
 {
 public:
     explicit Victim(Position position);
-    void move();
-    Position getPosition() const;
+
+    void move(const Pool& pool);
 
 private:
-    Position m_position;
+    void randomMove(const Pool& pool);
 };

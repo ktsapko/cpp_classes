@@ -25,7 +25,7 @@
         {
           "name": "RunsSeveralIterations",
           "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
-          "line": 41
+          "line": 40
         }
       ]
     },
@@ -36,7 +36,7 @@
         {
           "name": "PositionInsidePool",
           "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
-          "line": 62
+          "line": 59
         }
       ]
     },
@@ -47,7 +47,7 @@
         {
           "name": "CannotLeavePool",
           "file": "\/home\/kyrylo\/Repository\/Pool\/tests\/Predator_Test.cpp",
-          "line": 82
+          "line": 79
         }
       ]
     }
